@@ -30,12 +30,65 @@
 }
 
 #portifolio img{
-    width: 40%;
+    width: 30%;
     height: 100%;
+
 }
 
-/* CLASSES */
+#projeto1{
+min-height: 300px;
 
+padding-top: 5px;
+display: none;
+
+}
+#StreamersPB img{
+  width: 600px;
+  height: 300px;
+}
+/* CLASSES */
+.skill1{
+  background-image: url("/img/html-5.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill2{
+  background-image: url("/img/css-3.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill3{
+  background-image: url("/img/bootstrap.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill4{
+  background-image: url("/img/js.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill5{
+  background-image: url("/img/linux.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill6{
+  background-image: url("/img/github.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
 
 .parallax1{
     background-image: url("/img/paralax1.jpg");
@@ -108,4 +161,41 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    font-size: 12px;
   }
+
+
+
+  @media screen and (max-width: 580px) and (min-width: 480px){
+    #StreamersPB img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 300px;
+    }
+    div.gallery {
+      margin-left: 85px;
+      border-radius: 10%;
+      border: 1px solid #ccc;
+      
+      width: 150px;
+    }
+
+    
+  }
+  /*@media(max-width: 450px){
+    #StreamersPB img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 300px;
+    }
+    div.gallery {
+      margin-left: -985px;
+      border-radius: 10%;
+      border: 1px solid #ccc;
+      width: 120px;
+    }
+  }*/
