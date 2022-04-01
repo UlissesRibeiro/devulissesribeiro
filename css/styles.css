@@ -1,0 +1,111 @@
+/* GERAIS */
+
+
+/* IDS */
+#sobrenome{
+    color: darkred;
+}
+#home{
+    height: 700px;
+}
+#home h5{
+    color: darkred;
+}
+
+#home h1{
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+#home a{
+    color: darkred;
+}
+
+#linkList a{
+    color: black;
+}
+#linkList a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+#portifolio img{
+    width: 40%;
+    height: 100%;
+}
+
+/* CLASSES */
+
+
+.parallax1{
+    background-image: url("/img/paralax1.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.parallax2{
+    background-image: url("/img/paralax2.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.list-group a{
+    border: none;  
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+div.gallery {
+    margin: 10px;
+    border-radius: 10%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
