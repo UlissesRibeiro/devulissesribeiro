@@ -30,12 +30,23 @@
 }
 
 #portifolio img{
-    width: 40%;
+    width: 30%;
     height: 100%;
+
 }
 
-/* CLASSES */
+#projeto1{
+min-height: 300px;
+background-color:;
+padding-top: 5px;
+display: none;
 
+}
+#StreamersPB img{
+  width: 600px;
+  height: 300px;
+}
+/* CLASSES */
 
 .parallax1{
     background-image: url("/img/paralax1.jpg");
@@ -108,4 +119,38 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+
+  @media(max-width: 450px){
+    #StreamersPB img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 300px;
+    }
+    div.gallery {
+      margin-left: 60px;
+      border-radius: 10%;
+      border: 1px solid #ccc;
+      
+      width: 120px;
+    }
+  }
+
+  @media(max-width: 580px){
+    #StreamersPB img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 300px;
+    }
+    div.gallery {
+      margin-left: 65px;
+      border-radius: 10%;
+      border: 1px solid #ccc;
+      
+      width: 150px;
+    }
   }
