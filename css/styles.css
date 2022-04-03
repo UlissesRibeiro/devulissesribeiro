@@ -37,7 +37,7 @@
 
 #projeto1{
 min-height: 300px;
-background-color:;
+
 padding-top: 5px;
 display: none;
 
@@ -46,7 +46,74 @@ display: none;
   width: 600px;
   height: 300px;
 }
+
+#rodape{
+  background-color: rgb(65, 6, 6);
+  color: white;
+  padding-top: 50px;
+}
 /* CLASSES */
+.projt1{
+  background-image: url("/img/banner1.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+}
+
+.projt2{
+  background-image: url("/img/banner2.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width:100%;
+}
+
+
+.skill1{
+  background-image: url("/img/html-5.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill2{
+  background-image: url("/img/css-3.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill3{
+  background-image: url("/img/bootstrap.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill4{
+  background-image: url("/img/js.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill5{
+  background-image: url("/img/linux.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
+.skill6{
+  background-image: url("/img/github.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 200px;
+}
 
 .parallax1{
     background-image: url("/img/paralax1.jpg");
@@ -119,9 +186,12 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    font-size: 12px;
   }
 
-  @media(max-width: 450px){
+
+
+  @media screen and (max-width: 580px) and (min-width: 480px){
     #StreamersPB img{
       display: block;
       margin-left: auto;
@@ -130,27 +200,27 @@ div.gallery {
       height: 300px;
     }
     div.gallery {
-      margin-left: 60px;
-      border-radius: 10%;
-      border: 1px solid #ccc;
-      
-      width: 120px;
-    }
-  }
-
-  @media(max-width: 580px){
-    #StreamersPB img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 500px;
-      height: 300px;
-    }
-    div.gallery {
-      margin-left: 65px;
+      margin-left: 85px;
       border-radius: 10%;
       border: 1px solid #ccc;
       
       width: 150px;
     }
+
+    
   }
+  /*@media(max-width: 450px){
+    #StreamersPB img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 300px;
+    }
+    div.gallery {
+      margin-left: -985px;
+      border-radius: 10%;
+      border: 1px solid #ccc;
+      width: 120px;
+    }
+  }*/
