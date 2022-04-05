@@ -28,7 +28,9 @@
     color: darkred;
     text-decoration: underline;
 }
-
+#portifolio{
+  margin-top: 60px;
+}
 #portifolio img{
     width: 30%;
     height: 100%;
@@ -46,7 +48,32 @@ display: none;
   width: 600px;
   height: 300px;
 }
+
+#rodape{
+  background-color: rgb(65, 6, 6);
+  color: white;
+  padding-top: 50px;
+}
 /* CLASSES */
+.projt1{
+  background-image: url("/img/banner1.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+}
+
+.projt2{
+  background-image: url("/img/banner2.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width:100%;
+}
+
+
 .skill1{
   background-image: url("/img/html-5.png");
   background-repeat: no-repeat;
@@ -198,4 +225,8 @@ div.gallery {
       border: 1px solid #ccc;
       width: 120px;
     }
+<<<<<<< HEAD
   }*/
+=======
+  }*/
+>>>>>>> ca9daced040ed12b276ddfadbb5dfc6037a93de0
