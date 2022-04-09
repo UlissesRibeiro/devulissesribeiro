@@ -19,6 +19,7 @@
      <!-- Icones BootStrap-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Ulisses Ribeiro - Desenvolvedor Web Front-End</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/css/styles.css">
     <script src="/js/functions.js"></script>
@@ -110,7 +111,7 @@
                   <rect width="100%" fill="#55595c" />
                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
                   </svg>
-                <button type="button" href="" class="btn" style="padding-top: 70px;" onclick="showProj1()">Detalhes</button>	  
+                <a type="button" class="btn" style="padding-top: 70px;" id="loadProj1">Detalhes</a>	  
                 </div>
               </div>
               
@@ -121,9 +122,10 @@
                   <rect width="100%" fill="#55595c" />
                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
                   </svg>
-                <button type="button"  class="btn" style="padding-top: 70px;" onclick="showProj2()">Detalhes</button>		  
+                <a type="button" class="btn" style="padding-top: 70px;"id="loadProj2">Detalhes</a>		  
                 </div>
               </div>
+
 
             </div>
             <!--<div class="container  d-flex justify-content-center">
@@ -135,55 +137,11 @@
               </div>
                 
             </div>-->       
-            
-            
-            <div id="projeto1" >
-              <div class="row">
-                <div class="col-lg-6 ms-auto" id="StreamersPB"><p class=""  style="font-weight: bold;"><h1></h1>
-                  <img class="mx-auto mb-3 img-fluid"  src="/img/streamerspb.PNG" alt=""
-                  > </p>
-                </div>
-                <div class="col-lg-6 me-auto" >
-                <h5 style="margin-top: 30px;">StreamersPB</h5> <button style="float: right;color:red" type="button" class="btn" onclick="hideProj1()"><i class="bi bi-x-square-fill"></i></button>
-                <p>Projeto idealizado e desenvolvido por mim, com o intuito
-                    de reunir num único local, streamers e pequenos criadores
-                    de conteúdo aqui da Paraíba!
-                </p>
-                <hr>
-                <p>Novembro - 2021</p>
-                <hr>
-                <h5>TECNOLOGIAS : HTML 5, CSS3, BOOTSTRAP 5, JAVASCRIPT</h5>
-                <hr>
-                <a  class="btn" style="border-radius: 5%;background-color: darkred;color: white;
-                    font-size: 10px;"
-                   href="https://www.streamerspb.com.br" target="_blank">VEJA O PROJETO</a>  
-                  </div> 
-              </div>
-           </div>
+            <div id="conteudo">
 
-        <div id="projeto2" style="display: none;" >
-          <div class="row">
-            <div class="col-lg-6 ms-auto" id="StreamersPB"><p class=""  style="font-weight: bold;"><h1></h1>
-              <img class="mx-auto mb-3 img-fluid"  src="/img/ebz.PNG" alt=""
-              > </p>
             </div>
-            <div class="col-lg-6 me-auto" >
-            <h5 style="margin-top: 30px;">Eternos Bronze</h5> <button style="float: right;color:red" type="button" class="btn" onclick="hideProj2()"><i class="bi bi-x-square-fill"></i></button>
-            <p>Projeto que criei para divulgar o time Eternos Bronze, de League of Legends!
-            </p>
-            <hr>
-            <p>Outubro - 2021</p>
-            <hr>
-            <h5>TECNOLOGIAS : HTML 5, CSS3, BOOTSTRAP 5</h5>
-            <hr>
-            <a  class="btn" style="border-radius: 5%;background-color: darkred;color: white;
-                font-size: 10px;"
-               href="https://ulissesribeiro.github.io/ebz_lol/" target="_blank">VEJA O PROJETO</a>
-
             
-        </div> 
-    </div>
-    </div>
+            
     </section>
     <!-- seção das habilidades -->
     <section id="skills">
