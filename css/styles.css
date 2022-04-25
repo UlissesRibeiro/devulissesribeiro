@@ -73,6 +73,15 @@ display: none;
   width:100%;
 }
 
+.projt3{
+  background-image: url("/img/banner3.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width:100%;
+}
+
 
 .skill1{
   background-image: url("/img/html-5.png");
@@ -225,8 +234,4 @@ div.gallery {
       border: 1px solid #ccc;
       width: 120px;
     }
-<<<<<<< HEAD
   }*/
-=======
-  }*/
->>>>>>> ca9daced040ed12b276ddfadbb5dfc6037a93de0
