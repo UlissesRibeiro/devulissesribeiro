@@ -21,8 +21,8 @@
     <title>Ulisses Ribeiro - Desenvolvedor Web Front-End</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/functions.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
     <!-- start navbar -->
@@ -101,7 +101,72 @@
       <div class="parallax2"></div>
       <!-- seção de portifolio -->
     <section id="portifolio">
-        <div class="container">
+      <div class="container">
+        <h1>&lt Portifólio &gt</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2" id="prods">
+          <div class="col">
+          <div class="card shadow-sm">
+            <button id="projt1" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#streamerspb" aria-expanded="false" aria-controls="streamerspb">
+              <!--<img src="img/banner1.png" alt="streamerspb" srcset="">-->
+            </button>		  
+          <div class="card-body collapse" id="streamerspb">
+              <p style="text-align:center;">Projeto para divulgação de streamers da Paraiba!</p>
+              <hr>
+            <img src="img/streamerspb.PNG"  alt="" srcset="">
+            <hr>
+            <h6 style="text-align: center;">Tecnologias utilizadas :</h6>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>BootStrap</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <button id="projt2" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#ebz" aria-expanded="false" aria-controls="ebz">
+                <!--<img src="img/banner2.png" alt="eternos bronze" srcset="">-->
+              </button>		  
+            <div class="card-body collapse" id="ebz">
+              <p style="text-align: center;">Projeto de time de League of Legends!</p>
+              <hr>
+              <img src="img/ebz.PNG" alt="" srcset="">
+              <hr>
+              <h6 style="text-align: center;">Tecnologias utilizadas :</h6>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>BootStrap</li>
+              </ul>
+            </div>
+            </div>
+            </div>
+  
+            <div class="col">
+              <div class="card shadow-sm">
+                <button id="projt3" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#suuh" aria-expanded="false" aria-controls="suuh">
+                  <!--<img src="img/banner3.png" alt="suuhgetsu" srcset="">-->
+                </button>		  
+              <div class="card-body collapse" id="suuh">
+                <p style="text-align: center;">Projeto de divulgação de trabalhos voltados a acessibilidade em libras!</p>
+                <hr>
+                <img src="img/suuh.PNG" alt="" srcset="">
+                <hr>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>BootStrap</li>
+                </ul>
+              </div>
+              </div>
+              </div>
+        </div>
+      </div>
+
+
+        <!--<div class="container">
             <h1>&lt Portifólio &gt</h1>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
               <div class="col">
@@ -275,5 +340,6 @@
               </div>
 
     </section>
+    <script src="js/functions.js"></script>
 </body>
 </html>

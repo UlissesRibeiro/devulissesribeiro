@@ -30,10 +30,12 @@
 }
 #portifolio{
   margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #portifolio img{
-    width: 30%;
-    height: 100%;
+    width: 400px;
+    height: ;
 
 }
 
@@ -54,9 +56,11 @@ display: none;
   color: white;
   padding-top: 50px;
 }
+
+
 /* CLASSES */
-.projt1{
-  background-image: url("/img/banner1.png");
+#projt1{
+  background-image: url("../img/banner1.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,8 +68,8 @@ display: none;
   width: 100%;
 }
 
-.projt2{
-  background-image: url("/img/banner2.png");
+#projt2{
+  background-image: url("../img/banner2.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,8 +77,8 @@ display: none;
   width:100%;
 }
 
-.projt3{
-  background-image: url("/img/banner3.png");
+#projt3{
+  background-image: url("../img/banner3.png");
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,42 +88,42 @@ display: none;
 
 
 .skill1{
-  background-image: url("/img/html-5.png");
+  background-image: url("../img/html-5.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
   height: 200px;
 }
 .skill2{
-  background-image: url("/img/css-3.png");
+  background-image: url("../img/css-3.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
   height: 200px;
 }
 .skill3{
-  background-image: url("/img/bootstrap.png");
+  background-image: url("../img/bootstrap.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
   height: 200px;
 }
 .skill4{
-  background-image: url("/img/js.png");
+  background-image: url("../img/js.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
   height: 200px;
 }
 .skill5{
-  background-image: url("/img/linux.png");
+  background-image: url("../img/linux.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
   height: 200px;
 }
 .skill6{
-  background-image: url("/img/github.png");
+  background-image: url("../img/github.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: center;
@@ -127,7 +131,7 @@ display: none;
 }
 
 .parallax1{
-    background-image: url("/img/paralax1.jpg");
+    background-image: url("../img/paralax1.jpg");
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +140,7 @@ display: none;
 
 }
 .parallax2{
-    background-image: url("/img/paralax2.jpg");
+    background-image: url("../img/paralax2.jpg");
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +206,7 @@ div.gallery {
 
 
 
-  @media screen and (max-width: 580px) and (min-width: 480px){
+  @media screen and (max-width: 815px) and (min-width: 300px){
     #StreamersPB img{
       display: block;
       margin-left: auto;
@@ -217,8 +221,16 @@ div.gallery {
       
       width: 150px;
     }
-
-    
+    #portifolio{
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #portifolio img{
+      width: 100%;
+      height: ;
+  
+  }
   }
   /*@media(max-width: 450px){
     #StreamersPB img{
