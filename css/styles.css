@@ -88,6 +88,10 @@ display: none;
 }
 
 
+#portifolio #portimg img{
+  width: 3.5%;
+}
+
 .skill1{
   background-image: url("../img/html-5.png");
   background-repeat: no-repeat;
@@ -130,7 +134,9 @@ display: none;
   background-position: center;
   height: 200px;
 }
-
+#stacks{
+  width: 4%;
+}
 .parallax1{
     background-image: url("../img/paralax1.webp");
     min-height: 500px;
@@ -231,6 +237,12 @@ div.gallery {
       width: 100%;
       height: ;
   
+  }
+  #stacks{
+    width: 10%;
+  }
+  #portifolio #portimg img{
+    width: 8%;
   }
   }
   /*@media(max-width: 450px){
