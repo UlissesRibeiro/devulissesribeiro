@@ -51,6 +51,7 @@ display: none;
   height: 300px;
 }
 
+
 #rodape{
   background-color: rgb(65, 6, 6);
   color: white;
@@ -69,8 +70,8 @@ display: none;
 }
 
 #projt2{
-  background-image: url("../img/banner2.webp");
-  background-size: 50%;
+  background-image: url("../img/miniatura_shirley.webp");
+  background-size: 95%;
   background-repeat: no-repeat;
   background-position: center;
   height: 100px;
@@ -79,7 +80,7 @@ display: none;
 
 #projt3{
   background-image: url("../img/banner3.webp");
-  background-size: 55%;
+  background-size: 95%;
   background-repeat: no-repeat;
   background-position: center;
   height: 100px;
