@@ -32,6 +32,14 @@
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#clientes{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 #portifolio img{
     width: 400px;
@@ -87,11 +95,46 @@ display: none;
   width:100%;
 }
 
+#projt4{
+  background-image: url("../img/master_hero_banner.webp");
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width:100%;
+}
 
+#projt5{
+  background-image: url("../img/catamba_filmes.webp");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width:100%;
+}
+
+#cliente1{
+  background-image: url("../img/odonto_centro.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+
+}
+#cliente2{
+  background-image: url("../img/alx.webp");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+
+}
 #portifolio #portimg img{
   width: 3.5%;
 }
-
+#clt{
+  border-color: transparent;
+}
 .skill1{
   background-image: url("../img/html-5.png");
   background-repeat: no-repeat;
@@ -138,7 +181,7 @@ display: none;
   width: 4%;
 }
 .parallax1{
-    background-image: url("../img/paralax1.webp");
+    background-image: url("../img/paralax1.jpg");
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +190,7 @@ display: none;
 
 }
 .parallax2{
-    background-image: url("../img/paralax2.webp");
+    background-image: url("../img/paralax2.jpeg");
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +256,17 @@ div.gallery {
 
 
 
-  @media screen and (max-width: 815px) and (min-width: 300px){
+  @media screen and (max-width: 815px) and (min-width: 200px){
+
+    #home h1{
+      text-transform: uppercase;
+      font-size: 25px;
+  }
+
+#linkList a{
+  color: black;
+  font-size: 10px;
+}
     #StreamersPB img{
       display: block;
       margin-left: auto;
@@ -233,9 +286,14 @@ div.gallery {
       margin-left: auto;
       margin-right: auto;
     }
+    #clientes{
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     #portifolio img{
       width: 100%;
-      height: ;
+
   
   }
   #stacks{
