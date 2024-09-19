@@ -6,7 +6,7 @@
     color: darkred;
 }
 #home{
-    height: 700px;
+    height: 600px;
 }
 #home h5{
     color: darkred;
@@ -20,7 +20,9 @@
 #home a{
     color: darkred;
 }
-
+#images-cursos img{
+  width: ;
+}
 #linkList a{
     color: black;
 }
@@ -119,6 +121,7 @@ display: none;
   background-repeat: no-repeat;
   background-position: center;
   height: 100px;
+  box-shadow: 10px 10px 50px #888888;
 
 }
 #cliente2{
@@ -127,6 +130,7 @@ display: none;
   background-repeat: no-repeat;
   background-position: center;
   height: 100px;
+  box-shadow: 10px 10px 50px #888888;
 
 }
 #portifolio #portimg img{
